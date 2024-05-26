@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(128, 45, 253);
+    margin: 50px;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+form {
+    text-align: center;
+    height: 700px;
+    width: 550px;
+    background-color: transparent;
+    
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 0px 10px rgba(0,0,0, .2);
+    margin: 50px auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"], [input="date"] {
+    height: 8%;
+    width: 65%;
+    
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 10px rgba(0,0,0, .2);
+}
+#cad {
+    
+    font: 2em sans-serif;
+    text-align: center;
+    color: #f7eded;
+    font-family: "Franklin Gothic", sans-serif;
+    font-size: 80px;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+label[for="email"],
+label[for="senha"],
+label[for="nome"]{
+    padding: 120px;
+}
+
+label[for="confirmar_senha"],
+label[for="data_nascimento"]{
+    padding: 70px;
+}
+
+label[for="aluno"]{
+    padding: 50px;
+}
+
+label[for="sim"]{
+  padding: 125px;
+}
+
+
+input[type="checkbox"] {
+    width: 90%;
+   margin-top: 20px;
+   
+}
+
+input::placeholder {
+    
+    color:  #f7eded;;
+    font-size: 17px;
+}
+input[type="date"]{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #16a085;
+    color: white;
+}
